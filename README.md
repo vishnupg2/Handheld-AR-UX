@@ -3,7 +3,7 @@ UX animations and helper utilities for unity that are built on top of [ARFoundat
 
 Requires Unity Version 2018.2+
 
-##What's Included
+## What's Included
 
 Scanning device animation
 
