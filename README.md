@@ -11,4 +11,15 @@ Tap to Place animation
 
 Dynamic Focus circle
 
+Multiple Plane rendering patterns and fading animation
+
+Texture for feature point visualization
+
 <img src="External/ARUX.gif">
+
+
+## Included prefabs
+
+UIManager_iPad - UI position and placement for most 4:3 and 16:9 devices
+
+UIManager_iPhoneX - UI position and placement for 2.17:1 devices
