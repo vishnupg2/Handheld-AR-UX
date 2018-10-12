@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.XR.ARFoundation;
 
 public class UIManager : MonoBehaviour
@@ -23,7 +24,6 @@ public class UIManager : MonoBehaviour
 
 	ARPlaneManager m_ARPlaneManager;
 	List<ARPlane> m_Planes = new List<ARPlane>();
-
 	public bool movingPhone
 	{
 		get { return m_MovingPhone; }
@@ -56,8 +56,10 @@ public class UIManager : MonoBehaviour
 		m_ARPlaneManager.GetAllPlanes(m_Planes);		
 		return m_Planes.Count > 0;
 	}
-	
-	
 
-
+	public void ReloadScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+	
 }
