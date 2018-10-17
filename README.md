@@ -5,17 +5,21 @@ Requires Unity Version 2018.2+
 
 ## What's Included
 
-Scanning device animation
-
 Tap to Place animation
 
 Dynamic Focus circle
 
-Multiple Plane rendering patterns and fading animation
-
 Texture for feature point visualization
 
 <img src="External/ARUX.gif">
+
+Scanning device animation
+
+<img src="External/movedeviceslowly.gif">
+
+Multiple Plane rendering patterns and fading animation
+
+<img src="External/FeatheredPlane.gif">
 
 ## Included prefabs
 
